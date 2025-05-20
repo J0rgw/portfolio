@@ -18,7 +18,7 @@ const Home = () => {
             Jorge Arcas
           </h1>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-murs font-medium text-gray-800 mb-8 leading-tight">
-            I'm programming <span className="text-primary">my future</span>
+            Programming <span className="text-primary">my future</span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto font-medium tracking-wide">
             Frontend Developer passionate about creating beautiful, responsive, and user-friendly applications and APIs
