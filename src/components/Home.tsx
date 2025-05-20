@@ -55,7 +55,7 @@ const Home = () => {
               <FiGithub size={28} />
             </a>
             <a 
-              href="https://linkedin.com/in/yourprofile" 
+              href="https://www.linkedin.com/in/jorge-arcas-verdejo-18ba29255" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-blue-700 transition-all duration-300 transform hover:scale-125"
@@ -64,7 +64,7 @@ const Home = () => {
               <FiLinkedin size={28} />
             </a>
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:jorgearcasverdejo@gmail.com" 
               className="text-gray-600 hover:text-red-500 transition-all duration-300 transform hover:scale-125"
               aria-label="Email"
             >
