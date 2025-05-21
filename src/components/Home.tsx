@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiArrowDown } from 'react-icons/fi'; // Removed FiMail as it's not needed anymore
 
 const Home = () => {
   return (
@@ -36,7 +36,7 @@ const Home = () => {
               <FiArrowDown className="animate-bounce" />
             </Link>
             <a 
-              href="#contact" 
+              href="mailto:jorgearcasverdejo@gmail.com" 
               className="px-10 py-5 border-2 border-primary text-primary rounded-xl hover:bg-blue-50 transition-all duration-300 text-center font-murs font-semibold text-lg tracking-wider"
             >
               Contact Me
@@ -44,32 +44,27 @@ const Home = () => {
           </div>
 
           {/* Social Links */}
-          <div className="flex justify-center space-x-8">
-            <a 
-              href="https://github.com/J0rgw" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-primary transition-all duration-300 transform hover:scale-125"
-              aria-label="GitHub"
-            >
-              <FiGithub size={28} />
-            </a>
-            <a 
-              href="https://www.linkedin.com/in/jorge-arcas-verdejo-18ba29255" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-blue-700 transition-all duration-300 transform hover:scale-125"
-              aria-label="LinkedIn"
-            >
-              <FiLinkedin size={28} />
-            </a>
-            <a 
-              href="mailto:jorgearcasverdejo@gmail.com" 
-              className="text-gray-600 hover:text-red-500 transition-all duration-300 transform hover:scale-125"
-              aria-label="Email"
-            >
-              <FiMail size={28} />
-            </a>
+          <div className="w-full flex justify-center">
+            <div className="flex space-x-8">
+              <a 
+                href="https://github.com/J0rgw" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-primary transition-all duration-300 transform hover:scale-125"
+                aria-label="GitHub"
+              >
+                <FiGithub size={28} />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/jorge-arcas-verdejo-18ba29255" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-700 transition-all duration-300 transform hover:scale-125"
+                aria-label="LinkedIn"
+              >
+                <FiLinkedin size={28} />
+              </a>
+            </div>
           </div>
         </div>
       </div>

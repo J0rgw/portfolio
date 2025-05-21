@@ -47,9 +47,13 @@ const Header = () => {
               e.preventDefault();
               scrollToSection('home');
             }}
-            className="text-xl font-bold text-primary"
+            className="flex items-center"
           >
-            Jorge Arcas
+            <img 
+              src="/logo.png" 
+              alt="Jorge Arcas" 
+              className="h-10 w-auto" 
+            />
           </a>
 
           <nav className="hidden md:flex items-center space-x-1">
